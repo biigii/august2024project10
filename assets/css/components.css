@@ -11,3 +11,32 @@ nav {
     line-height: 100px;
 }
 
+.box {
+    margin: 100px;
+    width: 50%;
+    height: 600px;
+    border: 10px solid #2b65d1;
+    position: relative;
+}
+
+
+.box img {
+    cursor: pointer;
+    /* width: 300px */
+    /* scale: 1.2; */
+    /* transform: scale(1.6); old way */
+    /* rotate: 180deg; */
+    /* transform: rotate(45deg); */
+    /* translate: 120px 330px; */
+    /* transform: translate(100px, 150px); */
+    /* transform: skew(15deg, 20deg); */
+    display: block;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    translate: -50% -50%;
+}
+
+.box img:hover {
+    /* scale: 1.05; */
+}
