@@ -1,0 +1,57 @@
+/* @font-face {
+  font-family: "My Awesome Font";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+} */
+
+nav a {
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 30px;
+  color: var(--secondary);
+  /* transition: all 400ms; */
+  transition: color 400ms;
+}
+
+@media (max-width: 800px) {
+  nav a {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 4em;
+  /* font-family: "My Awesome Font"; */
+  /* font-family: "Ubuntu", sans-serif; */
+  font-style: italic;
+  text-shadow: 10px 10px 5px #4f6c3c;
+}
+
+p.text {
+  /* text-align: justify; */
+  font-size: 2em;
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-variant: small-caps; */
+  /* 100 200 300 400 500 600 700 800 900 */
+  /* font-weight: 900;
+  line-height: 1.5; */
+  /* font: 700 2em var(--font); */
+  text-indent: 150px;
+  /* letter-spacing: 3px; */
+  word-spacing: 40px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 5px solid;
+  box-shadow: 20px 20px 10px inset #faa;
+  /* box-shadow: -10px -10px 10px; */
+}
